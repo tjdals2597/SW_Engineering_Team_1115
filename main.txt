@@ -1,0 +1,19 @@
+def concatenate_strings(str1, str2):
+    """
+    Concatenates two strings.
+
+    Parameters:
+    - str1 (str): The first string.
+    - str2 (str): The second string.
+
+    Returns:
+    - str: The concatenated string.
+    """
+    result = str1 + str2
+    return result
+
+# 예제 사용
+string1 = "Hello, "
+string2 = "world!"
+result_string = concatenate_strings(string1, string2)
+print(result_string)
