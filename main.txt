@@ -1,11 +1,27 @@
-# 두수의 합 반환
 def sum_two_numbers(a, b):
     result = a + b
+    return result
+
+def concatenate_strings(str1, str2):
+    """
+    Concatenates two strings.
+
+    Parameters:
+    - str1 (str): The first string.
+    - str2 (str): The second string.
+
+    Returns:
+    - str: The concatenated string.
+    """
+    result = str1 + str2
     return result
 
 # 예제 사용
 num1 = 5
 num2 = 7
+string1 = "Hello, "
+string2 = "world!"
 result_sum = sum_two_numbers(num1, num2)
+result_string = concatenate_strings(string1, string2)
+print(result_sum, result_string)
 
-print(f"{num1}과 {num2}의 합은 {result_sum}입니다.")
